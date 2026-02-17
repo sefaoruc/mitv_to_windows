@@ -14,6 +14,15 @@ EXE Avantajı: PyInstaller ile paketlendiği için son kullanıcının bilgisaya
 
 Arka Plan Performansı: Düşük CPU ve RAM tüketimi için optimize edilmiştir.
 
+Kurulum ve Notlar
+Kütüphaneleri Yüklemek İçin:
+Terminal veya CMD üzerinden şu komutu çalıştırman yeterlidir:
+
+requirements.txt kurmak için terminale bunu yazın 
+```command
+pip install -r requirements.txt 
+```
+
 requirements.txt
 ```plaintext
 pystray==0.19.5
