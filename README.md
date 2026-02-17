@@ -15,6 +15,11 @@ EXE Avantajı: PyInstaller ile paketlendiği için son kullanıcının bilgisaya
 Arka Plan Performansı: Düşük CPU ve RAM tüketimi için optimize edilmiştir.
 
 requirements.txt
+```plaintext
+pystray==0.19.5
+Pillow==10.2.0
+pyinstaller==6.4.0
+```
 
 
 Programı Yönetici Olarak Çalıştırın Kapatmak İçin Görev Yöneticisini Kullanın
