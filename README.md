@@ -19,7 +19,7 @@ Kurulum ve Notlar
 Kütüphaneleri Yüklemek İçin:
 Terminal veya CMD üzerinden şu komutu çalıştırman yeterlidir:
 
-requirements.txt kurmak için terminale bunu yazın pystray==0.19.5, Pillow==10.2.0, pyinstaller==6.4.0 kütüphaneleri kurulacaktır
+requirements.txt pystray==0.19.5, Pillow==10.2.0, pyinstaller==6.4.0 kütüphaneleri kurulacaktır
 ```command
 pip install -r requirements.txt 
 ```
