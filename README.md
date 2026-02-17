@@ -1,4 +1,5 @@
 Mi TV Kumandasını Bilgisayarda Kullanmak
+
 Bu yazılım, Xiaomi Mi Stick / Box Bluetooth kumandalarını herhangi bir ek arayüz olmadan doğrudan Windows üzerinde kullanabilmenizi sağlar. 
 Program arka planda çalışır,
 
