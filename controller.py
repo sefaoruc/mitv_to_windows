@@ -64,22 +64,22 @@ def process_data(lparam):
                 if len(d) < 4: return
                 
                 # Orijinal Driver Mantığın
-                if d[1] == 1: press(0x0D)
-                elif d[1] == 2: press(0x26)
-                elif d[1] == 4: press(0x28)
-                elif d[1] == 8: press(0x25)
-                elif d[1] == 16: press(0x27)
-                elif d[1] == 32: press_combo(0x5B, 0x4C)
-                elif d[1] == 64: press_combo(0x5B, 0x53)
-                elif d[1] == 128: press(0xAF)
+                if d[1] == 1: press(0x0D) #OK_ENTER
+                elif d[1] == 2: press(0x26) #UP
+                elif d[1] == 4: press(0x28) #Down
+                elif d[1] == 8: press(0x25) #Left
+                elif d[1] == 16: press(0x27) #Right
+                elif d[1] == 32: press_combo(0x5B, 0x4C) #Netflix_WinL
+                elif d[1] == 64: press_combo(0x5B, 0x53) #PrimeVideo_WinS
+                elif d[1] == 128: press(0xAF) #VolumeUP
                 elif d[1] == 0:
-                    if d[2] == 1: press(0xAE)
-                    elif d[2] == 2: press(0x5B)
-                    elif d[2] == 4: press_combo(0x12, 0x09)
-                    elif d[2] == 32: press_combo(0x5B, 0x45)
+                    if d[2] == 1: press(0xAE) #VolumeDown
+                    elif d[2] == 2: press(0x5B) #LeftWin
+                    elif d[2] == 4: press_combo(0x12, 0x09) #AltTAB
+                    elif d[2] == 32: press_combo(0x5B, 0x45) #WinE
                     elif d[2] == 0:
-                        if d[3] == 4: press_combo(0x5B, 0x44)
-                        elif d[3] == 8: press(0x1B)
+                        if d[3] == 4: press_combo(0x5B, 0x44) #WinD
+                        elif d[3] == 8: press(0x1B) #ESC
             except: pass
 
 def driver_thread():
