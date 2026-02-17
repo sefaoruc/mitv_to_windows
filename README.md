@@ -14,7 +14,7 @@ EXE Avantajı: PyInstaller ile paketlendiği için son kullanıcının bilgisaya
 
 Arka Plan Performansı: Düşük CPU ve RAM tüketimi için optimize edilmiştir.
 
-Programı Yönetici Olarak Çalıştırın Kapatmak İçin Göreve Yöneticisini Kullanın
+Programı Yönetici Olarak Çalıştırın Kapatmak İçin Görev Yöneticisini Kullanın
 
 
 controller.py Dosyası:
