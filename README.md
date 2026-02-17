@@ -14,6 +14,9 @@ EXE Avantajı: PyInstaller ile paketlendiği için son kullanıcının bilgisaya
 
 Arka Plan Performansı: Düşük CPU ve RAM tüketimi için optimize edilmiştir.
 
+requirements.txt
+
+
 Programı Yönetici Olarak Çalıştırın Kapatmak İçin Görev Yöneticisini Kullanın
 
 
