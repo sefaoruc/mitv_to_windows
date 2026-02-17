@@ -14,6 +14,7 @@ EXE Avantajı: PyInstaller ile paketlendiği için son kullanıcının bilgisaya
 
 Arka Plan Performansı: Düşük CPU ve RAM tüketimi için optimize edilmiştir.
 
+Geliştiriciler ve meraklıları için 
 Kurulum ve Notlar
 Kütüphaneleri Yüklemek İçin:
 Terminal veya CMD üzerinden şu komutu çalıştırman yeterlidir:
@@ -23,6 +24,10 @@ requirements.txt kurmak için terminale bunu yazın pystray==0.19.5, Pillow==10.
 pip install -r requirements.txt 
 ```
 
+Controller dosyasını çalıştırın kullanıma hazır
+```command
+python controller.py
+```
 
 
 Programı Yönetici Olarak Çalıştırın Kapatmak İçin Görev Yöneticisini Kullanın
